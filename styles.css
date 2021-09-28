@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{font-size:20px ;}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  max-width: 100vw;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+@media (min-width: 412px){
+  body{
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 1170px){
+  body{
+    font-size: 0.5rem;
+  }
+}
+.tabcontent{
+  font-size: 5em;
+  max-width: 99vw;
+  height: 29vh;
+  padding: 20px;
+  justify-content: center;
+  display: none;
+  background-color: #4eb2cb;
+}
+.tablink{
+  padding: 10px  20px;
+  width: 25%;
+  border: none;
+  outline: none;
+  margin: 0;
+  float: left;
+}
+.tabcontent > h1{
+font-size: 0.8em;
+}
+
+.tabcontent p{
+  font-size: 0.4em;
+}
+
+
+
+.web{
+  background: linear-gradient( to right, #f7c191 , #552702);
+}
+ 
+.res{
+  background: linear-gradient( to right, #91a5f7, #020955);
+}
+.bus{
+  background: linear-gradient( to right, #f291f7, #470255);
+}
+.edu{
+  background: linear-gradient( to right, #d8f791, #225502);
+}
+
+.tweb{
+  background: linear-gradient( to right, #f7c191 90%, #552702);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  transition-property: font-size, color, background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+ 
+.tres{
+  background: linear-gradient( to right, #91a5f7 90%, #020955);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  transition-property: font-size, color, background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.tbus{
+  background: linear-gradient( to right, #f291f7 90%, #470255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  transition-property: font-size, color, background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.tedu{
+  background: linear-gradient( to right, #d8f791 90%, #225502);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  transition-property: font-size, color, background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.tweb:hover{
+  background-color: linear-gradient( to right, #f7c191 , #552702);
+  font-size: 1.5em;
+  color: #e6e7ee;
+}
+ 
+.tres:hover{
+  background: linear-gradient( to right, #91a5f7, #020955);
+  font-size: 1.5em;
+  color: #e6e7ee;
+}
+.tbus:hover{
+  background: linear-gradient( to right, #f291f7, #470255);
+  font-size: 1.5em;
+  color: #e6e7ee;
+}
+.tedu:hover{
+  background: linear-gradient( to right, #d8f791, #225502);
+  font-size: 1.5em;
+  color: #e6e7ee;
+}
+
+.jweb{
+  background: linear-gradient( to right, #f7c191 , #552702);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  color: #e6e7ee;
+  font-size: 1.5em;
+  transition-property: font-size, color, background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.jres{
+  background: linear-gradient( to right, #91a5f7, #020955);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  color: #e6e7ee;
+  font-size: 1.5em;
+  transition-property: font-size, color, background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+
+.jbus{
+  background: linear-gradient( to right, #f291f7, #470255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  color: #e6e7ee;
+  font-size: 1.5em;
+  transition-property: font-size, color, background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+
+.jedu{
+  background: linear-gradient( to right, #d8f791, #225502);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  color: #e6e7ee;
+  font-size: 1.5em;
+  transition-property: font-size, color, background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
