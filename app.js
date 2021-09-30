@@ -67,8 +67,5 @@ window.setInterval(() =>{
       content[x].style.display = "none";
     }
   }
-  y++
-  if(y == 4){
-    y = 0;
-  };
+  y = (y+1) % 4
 }, 3000)
